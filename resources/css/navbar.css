@@ -1,0 +1,30 @@
+body {
+/*   padding-top: 20px; */
+/*   padding-bottom: 20px; */
+}
+
+.container{
+	height:863px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.navbar-default{
+	background-color: transparent;
+}
+
+.navbar_search{
+	float:left;
+	margin:25px 0px 0px 48px;
+}
+
+@media ( min-width :768px) {
+	.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse,
+		.container-fluid>.navbar-collapse {
+		margin-right: 0px;
+		margin-left: 62px;
+	}
+}
+
